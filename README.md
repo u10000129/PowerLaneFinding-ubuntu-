@@ -1,6 +1,6 @@
 ## Power lane finding
 
-##### _note: this project is inspired by udacity program and is not complete yet_
+##### _note: this project is inspired by udacity nanoprogram and is not complete yet_
 
 ##### _Usage_
 1. cd build
@@ -25,14 +25,34 @@ achieve powerful lane finding.
 #### UML
 
 #### Current Result
-+ camera succeed, lidar succeed
-![775org](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera-succeed/775RGB-org.bmp)
-original image
-![775camera](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera-succeed/775RGB.bmp)
-![775fusion](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera-succeed/775RGB-fusion.bmp)
++ camera succeed, lidar succeed  
+![775org](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera-succeed/775RGB-org.bmp)  
+_original image_  
+![775camera](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera-succeed/775RGB.bmp)  
+_lane detection without lidar data_  
+![775fusion](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera-succeed/775RGB-fusion.bmp)  
+_lane detection with lidar data_  
 + camera succeed, lidar fail
+![897org](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-fail%2C%20camera%20succeed/897RGB-org.bmp)
+_original image_
+![897camera](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-fail%2C%20camera%20succeed/897RGB.bmp)
+_lane detection without lidar data_
+![897fusion](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-fail%2C%20camera%20succeed/897-fusion.bmp)
+_lane detection with lidar data_
 + camera fail, lidar succeed
+![4853org](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera%20fail/4853RGB-org.bmp)
+_original image_
+![4853camera](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera%20fail/4853RGB.bmp)
+_lane detection without lidar data_
+![4853fusion](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera%20fail/4853RGB-fusion.bmp)
+_lane detection with lidar data_
 + camera fail, lidar fail
+![2803org](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-fail%2C%20camera-fail/2803RGB-org.bmp)
+_original image_
+![2803camera](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-fail%2C%20camera-fail/2803RGB.bmp)
+_lane detection without lidar data_
+![2803fusion](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-fail%2C%20camera-fail/2803RGB-fusion.bmp)
+_lane detection with lidar data_
 
 #### Future Work
 1. Find an adaptive method for edge detection:  
