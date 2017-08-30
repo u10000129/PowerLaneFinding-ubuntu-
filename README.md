@@ -60,8 +60,8 @@ _lane detection with lidar data_
    Currently we change our edge detection method manually according to each frame. It's bad because in this way we can't apply the program on video, which means we can't use it on auto-driving car.  
    As a result, we have to find some way to differentiate scenes by scenes, and then we can apply edge detection adaptively. 
 2. Find a reliable way to adopt camera or lidar data:  
-   As you can see in the result above, camera is good sometimes but bad in another frame, so does lidar.   
-　 As a result, we have to find some way to let program know when to adopt camera result and when to adopt lidar result.
+   As you can see in the result above, camera is good sometimes but bad in another frame, so does lidar.  
+   As a result, we have to find some way to let program know when to adopt camera result and when to adopt lidar result.
 3. ROI selection:  
    Currently we choose ROI manually. We have to find a reliable way to choose ROI automatically so we can apply program on auto-driving car.
 4. Lane tracking:  
