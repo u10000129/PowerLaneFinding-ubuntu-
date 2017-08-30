@@ -22,8 +22,6 @@ achieve powerful lane finding.
 
 ![pipeline](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/pipeline.jpg)
 
-#### UML
-
 #### Current Result
 + camera succeed, lidar succeed  
 ![775org](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera-succeed/775RGB-org.bmp)  
