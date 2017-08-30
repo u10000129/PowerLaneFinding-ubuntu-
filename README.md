@@ -20,10 +20,16 @@ achieve powerful lane finding.
 3. Edge detection
 4. Lane detection
 
+![pipeline](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/pipeline.jpg)
+
 #### UML
 
 #### Current Result
 + camera succeed, lidar succeed
+![775org](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera-succeed/775RGB-org.bmp)
+original image
+![775camera](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera-succeed/775RGB.bmp)
+![775fusion](https://github.com/u10000129/PowerLaneFinding-ubuntu-/blob/master/images/lidar-succeed%2C%20camera-succeed/775RGB-fusion.bmp)
 + camera succeed, lidar fail
 + camera fail, lidar succeed
 + camera fail, lidar fail
